@@ -8,7 +8,7 @@
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
 # 端口代理
-AND,((GEOIP,US),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
+AND,((GEOIP,US,no-resolve),(AND,((PROTOCOL,UDP),(OR,((DEST-PORT,500),(DEST-PORT,4500))))))
 
 DOMAIN-SUFFIX,crl.t-mobile.com
 DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org
