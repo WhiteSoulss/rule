@@ -4,26 +4,26 @@ payload:
 
   # 端口代理 (Wi-Fi Calling 依賴的 IPsec UDP 端口)
   # 由於標準版 Clash 不支援 AND/OR 組合，這裡直接代理端口
-  - DST-PORT,500,Proxy
-  - DST-PORT,4500,Proxy
+  - DST-PORT,500
+  - DST-PORT,4500
 
   # 域名後綴 (T-Mobile & Ultra Mobile)
-  - DOMAIN-SUFFIX,crl.t-mobile.com,Proxy
-  - DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org,Proxy
-  - DOMAIN-SUFFIX,eas3.msg.t-mobile.com,Proxy
-  - DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org,Proxy
-  - DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,Proxy
-  - DOMAIN-SUFFIX,mascns.t-mobile.com,Proxy
-  - DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com,Proxy
-  - DOMAIN-SUFFIX,optimizely.com,Proxy
-  - DOMAIN-SUFFIX,redirect.ultra.me,Proxy
-  - DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org,Proxy
-  - DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,Proxy
-  - DOMAIN-SUFFIX,ultramobile.com,Proxy
+  - DOMAIN-SUFFIX,crl.t-mobile.com
+  - DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,eas3.msg.t-mobile.com
+  - DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,mascns.t-mobile.com
+  - DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
+  - DOMAIN-SUFFIX,optimizely.com
+  - DOMAIN-SUFFIX,redirect.ultra.me
+  - DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,ultramobile.com
 
   # 域名關鍵字
-  - DOMAIN-KEYWORD,t-mobile,Proxy
-  - DOMAIN-KEYWORD,ultramobile,Proxy
+  - DOMAIN-KEYWORD,t-mobile
+  - DOMAIN-KEYWORD,ultramobile
 
   # IP CIDR (加上 no-resolve 避免本地 DNS 污染)
   - IP-CIDR,206.29.177.36/32,Proxy,no-resolve
