@@ -44,7 +44,7 @@ payload:
   - DOMAIN-SUFFIX,zte.home
   - DOMAIN-SUFFIX,tplogin.cn
   - DOMAIN-SUFFIX,wifi.cmcc
-  - DOMAIN-SUFFIX,akawowfall.win
-  - DOMAIN-SUFFIX,akawowspring.win
+  - DOMAIN-SUFFIX,quietvales.com
+  - DOMAIN-SUFFIX,silvervales.com
   - IP-CIDR,154.21.84.40/32,no-resolve
-  - IP-CIDR,154.36.170.154/32,DIRECT,no-resolve
+  - IP-CIDR,154.36.170.154/32,no-resolve
