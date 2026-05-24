@@ -1,6 +1,6 @@
 payload:
   # 蘋果地區檢測
-  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,Proxy
+  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
   # 端口代理 (Wi-Fi Calling 依賴的 IPsec UDP 端口)
   # 由於標準版 Clash 不支援 AND/OR 組合，這裡直接代理端口
