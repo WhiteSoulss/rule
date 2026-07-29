@@ -44,5 +44,5 @@ DOMAIN-SUFFIX,wifi.cmcc
 
 DOMAIN-SUFFIX,quietvales.com
 DOMAIN-SUFFIX,silvervales.com
-IP-CIDR,154.21.84.40/32,no-resolve
+IP-CIDR,179.253.237.110/32,no-resolve
 IP-CIDR,154.36.170.154/32,no-resolve
