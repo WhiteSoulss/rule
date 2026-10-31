@@ -1,0 +1,3 @@
+# Custom proxy rules for classical rule providers.
+payload:
+  - DOMAIN-SUFFIX,crunchyroll.com
