@@ -1,2 +1,4 @@
 # Custom proxy rules.
 DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,stash.wiki
+DOMAIN-SUFFIX,stash.ws
